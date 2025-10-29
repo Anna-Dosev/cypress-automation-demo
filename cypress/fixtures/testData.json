@@ -1,0 +1,58 @@
+{
+  "users": {
+    "validUser": {
+      "username": "testuser",
+      "password": "password123",
+      "email": "testuser@example.com",
+      "firstName": "Test",
+      "lastName": "User"
+    },
+    "invalidUser": {
+      "username": "invalid",
+      "password": "wrong",
+      "email": "invalid@example.com"
+    },
+    "adminUser": {
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@example.com",
+      "role": "administrator"
+    }
+  },
+  "urls": {
+    "baseUrl": "https://example.com",
+    "loginPage": "/login",
+    "dashboardPage": "/dashboard",
+    "profilePage": "/profile"
+  },
+  "testData": {
+    "sampleText": "This is a sample text for testing",
+    "numbers": [1, 2, 3, 4, 5],
+    "boolean": true,
+    "formData": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 30,
+      "city": "New York",
+      "country": "USA"
+    }
+  },
+  "apiEndpoints": {
+    "users": "/api/users",
+    "posts": "/api/posts",
+    "comments": "/api/comments"
+  },
+  "selectors": {
+    "loginForm": {
+      "usernameField": "[data-cy='username']",
+      "passwordField": "[data-cy='password']",
+      "submitButton": "[data-cy='login-button']",
+      "errorMessage": "[data-cy='error-message']"
+    },
+    "navigation": {
+      "homeLink": "[data-cy='nav-home']",
+      "profileLink": "[data-cy='nav-profile']",
+      "logoutButton": "[data-cy='logout-button']"
+    }
+  }
+}

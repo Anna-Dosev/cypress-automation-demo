@@ -1,0 +1,25 @@
+{
+  "name": "cypress-automation-demo",
+  "version": "1.0.0",
+  "description": "In this project, I will demonstrate my automation testing capabilities using cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anna-Dosev/cypress-automation-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anna-Dosev/cypress-automation-demo/issues"
+  },
+  "homepage": "https://github.com/Anna-Dosev/cypress-automation-demo#readme",
+  "devDependencies": {
+    "cypress": "^15.5.0"
+  }
+}
